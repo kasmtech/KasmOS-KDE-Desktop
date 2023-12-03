@@ -1,0 +1,9 @@
+ARG BASE_IMAGE="kasmweb/core-kde:local"
+FROM $BASE_IMAGE AS base_layer
+
+USER root
+RUN apt-get update && apt-get install tree
+COPY ./src /tmp/theme-src/
+RUN /tmp/theme-src/install-theme
+
+USER 1000

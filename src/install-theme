@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+apt-get update && apt-get install -y materia-kde materia-gtk-theme geeqie
+rm -f /usr/share/wallpapers/Materia-Dark/contents/images/*
+cp /tmp/theme-src/bg_kasm.png /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
