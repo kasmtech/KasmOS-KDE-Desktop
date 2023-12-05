@@ -13,7 +13,7 @@ run_tweak_image() {
 
 set -x
 image=kasmweb/kde-tweaks:local
-volume_options="-v $PWD/kde-config:/home/kasm-user/.config"
+volume_options="-v $PWD/kde-config:/home/kasm-default-profile/.config"
 if [[ "$1" = "--pristine" || "$1" = "-p" ]]; then
   volume_options=
 fi
