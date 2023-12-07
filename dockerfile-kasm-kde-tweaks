@@ -5,5 +5,7 @@ USER root
 RUN apt-get update && apt-get install tree
 COPY ./src /tmp/theme-src/
 RUN /tmp/theme-src/install-theme
+COPY ./src/inside-docker/kde-tweaks-startup /dockerstartup/kde-tweaks-startup
 
 USER 1000
+ENTRYPOINT ["/dockerstartup/kde-tweaks-startup"]
