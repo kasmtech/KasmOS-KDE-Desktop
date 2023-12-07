@@ -3,7 +3,7 @@
 set -e
 
 build_tweak_image() {
-  docker build -t "$image" -f dockerfile-kasm-kde-tweaks .
+  docker build -t "$image" --build-arg BASE_IMAGE -f dockerfile-kasm-kde-tweaks .
 }
 
 run_tweak_image() {
