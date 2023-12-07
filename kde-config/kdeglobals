@@ -108,10 +108,11 @@ ForegroundPositive=76,175,80
 ForegroundVisited=173,101,175
 
 [General]
-ColorSchemeHash=2ef8a9f7238e072ca91b0eb590f49ded650c76bd
+ColorSchemeHash=3b17c5d56f8f372f0b0b9f709c4579c23e51fe6a
 
 [KDE]
 LookAndFeelPackage=com.github.varlesh.materia-dark
+ShowIconsInMenuItems=false
 
 [WM]
 activeBackground=39,39,39
