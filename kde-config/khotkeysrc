@@ -996,6 +996,9 @@ Type=GESTURE
 [General]
 ColorScheme[$d]
 ColorSchemeHash[$d]
+XftHintStyle[$d]
+XftSubPixel[$d]
+menuFont[$d]
 
 [Gestures]
 Disabled=true
@@ -1010,6 +1013,8 @@ WindowsCount=0
 Theme[$d]
 
 [KDE]
+LookAndFeelPackage[$d]
+ShowIconsInMenuItems[$d]
 widgetStyle[$d]
 
 [Main]

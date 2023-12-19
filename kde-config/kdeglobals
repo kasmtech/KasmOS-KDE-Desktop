@@ -109,6 +109,9 @@ ForegroundVisited=173,101,175
 
 [General]
 ColorSchemeHash=3b17c5d56f8f372f0b0b9f709c4579c23e51fe6a
+XftHintStyle=hintslight
+XftSubPixel=none
+menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=com.github.varlesh.materia-dark
