@@ -2,7 +2,7 @@ ARG BASE_IMAGE="kasmweb/core-kde:local"
 FROM $BASE_IMAGE AS base_layer
 
 USER root
-RUN apt-get update && apt-get install tree
+RUN apt-get update && apt-get install -y tree strace fd-find
 COPY ./src /tmp/theme-src/
 RUN /tmp/theme-src/install-theme
 COPY ./src/inside-docker/kde-tweaks-startup /dockerstartup/kde-tweaks-startup
