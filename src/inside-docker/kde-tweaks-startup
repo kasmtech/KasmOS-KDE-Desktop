@@ -2,15 +2,6 @@
 
 set -euo pipefail
 
-substitute_container_config_dir_with_host_config_dir() {
-  [ -d /tmp/kde-config ] || return 0
-
-  cd ~
-  rm -r .config
-  ln -s /tmp/kde-config .config
-}
-
 /dockerstartup/kasm_default_profile.sh
-substitute_container_config_dir_with_host_config_dir
 /dockerstartup/vnc_startup.sh
 /dockerstartup/kasm_startup.sh
