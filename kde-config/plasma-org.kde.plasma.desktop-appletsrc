@@ -41,17 +41,17 @@ plugin=org.kde.plasma.digitalclock
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][3]
+[Containments][2][Applets][19]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=org.kde.plasma.kickerdash
 
-[Containments][2][Applets][3][Configuration][General]
+[Containments][2][Applets][19][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][2][Applets][3][Configuration][Shortcuts]
+[Containments][2][Applets][19][Configuration][Shortcuts]
 global=Alt+F1
 
-[Containments][2][Applets][3][Shortcuts]
+[Containments][2][Applets][19][Shortcuts]
 global=Alt+F1
 
 [Containments][2][Applets][4]
@@ -75,7 +75,7 @@ PreloadWeight=55
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;14;15
+AppletOrder=19;4;5;6;7;14;15
 
 [Containments][8]
 activityId=
@@ -102,14 +102,26 @@ plugin=org.kde.plasma.devicenotifier
 immutability=1
 plugin=org.kde.plasma.clipboard
 
+[Containments][8][Applets][16]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][8][Applets][17]
+immutability=1
+plugin=org.kde.kdeconnect
+
+[Containments][8][Applets][18]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.manage-inputmethod
 
 [Containments][8][General]
-extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard
-knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard
+extraItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardindicator,org.kde.kdeconnect
+knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.nightcolorcontrol,org.kde.plasma.keyboardindicator,org.kde.kdeconnect
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
+screenMapping=desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
