@@ -5,12 +5,12 @@
 This project allows to tweak KDE and save the tweaks in git.
 
 It uses a KDE image, based on KDE core image.
-In-container `~/.config` is saved in git as `./kde-config/`.
+In-container `~/.config` is saved in git as `./kde-config/.config/`.
 
 The tweaks in `./kde-config/` are then used by Workspaces Core Images.
 
 In-container `~/.config` is completely ignored. `./tweak-theme` maps host
-`./kde-config` to be used as in-container `~/.config`.
+`./kde-config/.config/` to be used as in-container `~/.config`.
 
 ## How to tweak KDE and save tweaks
 
