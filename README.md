@@ -29,5 +29,5 @@ BASE_IMAGE=kasmweb/image-cache-private:x86_64-core-kde-bookworm-feature_KASM-525
 Add and remove favourite apps using GUI. Drag & drop to add, right-click click
 "Remove from Favorites" to remove.
 
-To save favourite changes in git, use `make save-favourites`, then commit files
+To save favourite changes in git, use `make save-favorites`, then commit files
 staged by it.

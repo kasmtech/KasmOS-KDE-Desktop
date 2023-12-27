@@ -1,7 +1,9 @@
-.PHONY: clean save-favourites
+.PHONY: clean save-favourites save-favorites
 
-save-favourites:
+save-favorites:
 	git add kde-config/.local/share/kactivitymanagerd/resources/database kde-config/.local/share/kactivitymanagerd/resources/database-shm kde-config/.local/share/kactivitymanagerd/resources/database-wal kde-config/.config/kactivitymanagerd-statsrc
+
+save-favourites: save-favorites
 
 clean:
 	git clean -f kde-config/ && git co kde-config/
