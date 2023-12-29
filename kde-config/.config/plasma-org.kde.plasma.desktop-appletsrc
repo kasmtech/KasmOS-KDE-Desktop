@@ -25,7 +25,7 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=555
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Materia-Dark/
+Image=/usr/share/wallpapers/Materia/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -49,8 +49,14 @@ plugin=org.kde.plasma.showdesktop
 immutability=1
 plugin=org.kde.plasma.kickerdash
 
+[Containments][2][Applets][19][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][19][Configuration][General]
+customButtonImage=kmenu
 favoritesPortedToKAstats=true
+useCustomButtonImage=true
 
 [Containments][2][Applets][19][Configuration][Shortcuts]
 global=Alt+F1
@@ -73,6 +79,9 @@ plugin=org.kde.plasma.pager
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][2][Applets][5][Configuration][General]
+launchers=preferred://filemanager,applications:chromium.desktop,applications:onlyoffice-docs.desktop,applications:onlyoffice-sheets.desktop,applications:onlyoffice-present.desktop
 
 [Containments][2][Applets][6]
 immutability=1

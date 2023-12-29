@@ -9,9 +9,9 @@ COPY ./src/inside-docker/kde-tweaks-startup /dockerstartup/kde-tweaks-startup
 
 RUN rm -rf /home/kasm-default-profile/.config
 
-COPY ./dolphin_22.12.3-1+kasm_amd64.deb /tmp/dolphin.deb
-COPY ./libdolphinvcs5_22.12.3-1+kasm_amd64.deb /tmp/libdolphin.deb
-RUN apt-get update && apt-get install -y /tmp/*.deb
+#COPY ./dolphin_22.12.3-1+kasm_amd64.deb /tmp/dolphin.deb
+#COPY ./libdolphinvcs5_22.12.3-1+kasm_amd64.deb /tmp/libdolphin.deb
+#RUN apt-get update && apt-get install -y /tmp/*.deb
 
 USER 1000
 

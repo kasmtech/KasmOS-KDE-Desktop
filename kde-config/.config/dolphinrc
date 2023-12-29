@@ -5,7 +5,8 @@ update_info=dolphin_detailsmodesettings.upd:rename-leading-padding
 ShowOpenTerminal=false
 
 [General]
-ViewPropsTimestamp=2023,12,3,8,33,39.433
+Version=202
+ViewPropsTimestamp=2023,12,29,14,51,5.214
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
