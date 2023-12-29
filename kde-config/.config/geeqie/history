@@ -1,0 +1,14 @@
+#History lists
+
+[image_list]
+
+[shortcuts]
+".[path](null)"
+"Home[path]/home/kasm-user"
+"Desktop[path]/home/kasm-user/Desktop"
+"Collections[path]/home/kasm-user/.local/share/geeqie/collections"
+
+[path_list]
+"/home/kasm-user"
+
+#end
