@@ -168,4 +168,4 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
+screenMapping=desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
