@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="398">
+  <name>Plasma Drawer</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>colloquiem</author>
+  <homepage>https://store.kde.org/p/1973454</homepage>
+  <licence></licence>
+  <version>1.4</version>
+  <rating>86</rating>
+  <downloads>37099</downloads>
+  <installedfile>/home/kasm-user/.local/share/plasma/plasmoids/P-Connor.PlasmaDrawer</installedfile>
+  <id>1973454</id>
+  <releasedate>2024-01-30</releasedate>
+  <summary>A full-screen customizable launcher with application directories and krunner-like search for KDE Plasma. &lt;br />
+&lt;br />
+&lt;strong>-- Installation --&lt;/strong>&lt;br />
+&lt;br />
+The widget can be downloaded or removed using the Plasma Add-On Installer:&lt;br />
+Right click desktop -&amp;gt; Add Widgets... -&amp;gt;...</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/100x100-0/img/00/00/63/65/03/1973454/plasma-drawer-icon.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-0/img/00/00/63/65/03/1973454/plasma-drawer-icon.png</previewBig>
+  <payload>https://files04.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE3MDY1ODE2OTMiLCJvIjoiMSIsInMiOiIxODI5MjBjMzdjYjAwMmFmMzlhYTUzZTRlNmE5MWQzMWRiZmExMzE2OGRlMzFlNjdjMTRlOWQ4NTk4OGVlNjliNWZkMzgxZWI5MDk3MzE5Y2E0OGZlNjI0MjdlZTgwMGY3ZDJjNmI4OTY4YzNiMTY5MzYxMTYwODRmOWExNTZmMCIsInQiOjE3MTA0Mzc4MDgsInN0ZnAiOm51bGwsInN0aXAiOiIxMzAuMTYyLjIxMS4yNCJ9.vnxSt4YP_IpSVNlLqYbNBBz0Bd6YJkCHNB_eU0C59Ok/plasma-drawer-1.4.plasmoid</payload>
+  <tags>widget,desktop,phone,tablet,app,extension,gplv3,drawer,dashboard,original-product,plasma,plasma##majorversion=5,unix,linux,menu,launcher,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
