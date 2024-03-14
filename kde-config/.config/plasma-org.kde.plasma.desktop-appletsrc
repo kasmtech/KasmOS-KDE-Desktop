@@ -7,6 +7,7 @@ RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
 ItemGeometries-1024x768=
+ItemGeometries-2193x1213=
 ItemGeometriesHorizontal=
 activityId=95e1982a-6d3c-4c31-8d3e-f3686712b1ad
 formfactor=0
@@ -22,10 +23,10 @@ DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=555
+ToolBoxButtonX=696
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Materia/
+Image=/usr/share/wallpapers/Materia-Dark/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][2]
@@ -48,6 +49,7 @@ plugin=org.kde.plasma.showdesktop
 [Containments][2][Applets][19]
 immutability=1
 plugin=org.kde.plasma.kickerdash
+transient=true
 
 [Containments][2][Applets][19][Configuration][ConfigDialog]
 DialogHeight=540
@@ -72,6 +74,36 @@ plugin=org.kde.plasma.panelspacer
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
+[Containments][2][Applets][21][Configuration][General]
+expanding=false
+length=100
+
+[Containments][2][Applets][22]
+immutability=1
+plugin=P-Connor.PlasmaDrawer
+
+[Containments][2][Applets][22][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][22][Configuration][General]
+customButtonImage=deepin-launcher
+favoriteSystemActions=logout
+showSystemActions=false
+useCustomButtonImage=true
+
+[Containments][2][Applets][23]
+immutability=1
+plugin=org.kde.plasma.kickerdash
+transient=true
+
+[Containments][2][Applets][23][Configuration][General]
+favoritesPortedToKAstats=true
+
+[Containments][2][Applets][24]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -89,10 +121,10 @@ plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][ConfigDialog]
 DialogHeight=74
-DialogWidth=1912
+DialogWidth=2193
 
 [Containments][2][General]
-AppletOrder=21;19;4;5;20;6;14;15
+AppletOrder=24;22;4;21;5;20;6;14;15
 
 [Containments][8]
 activityId=

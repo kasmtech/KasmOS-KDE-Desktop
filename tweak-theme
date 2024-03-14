@@ -3,12 +3,12 @@
 set -e
 
 build_tweak_image() {
-  docker build -t "$image" --build-arg BASE_IMAGE -f dockerfile-kasm-kde-tweaks .
+  docker build -t "$image" --build-arg "BASE_IMAGE=$1" -f dockerfile-kasm-kde-tweaks .
 }
 
 run_tweak_image() {
   docker run $volume_options \
-    --rm -it --shm-size=512m -p 6901:6901 -e VNC_PW=password "$image"
+    --rm -it --shm-size=512m -p 7901:6901 -e VNC_PW=password "$image"
 }
 
 set -x
@@ -18,5 +18,5 @@ if [[ "$1" = "--pristine" || "$1" = "-p" ]]; then
   volume_options=
 fi
 
-build_tweak_image
+build_tweak_image $1
 run_tweak_image

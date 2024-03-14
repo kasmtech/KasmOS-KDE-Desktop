@@ -17,9 +17,9 @@ In-container `~/.config` is completely ignored. `./tweak-theme` maps host
 
 Run container based on a KDE core image:
 ```sh
-BASE_IMAGE=kasmweb/image-cache-private:x86_64-core-kde-bookworm-feature_KASM-5251-kde-base-multi-monitor-kasmvnc-1075773254 ./tweak-theme
+./tweak-theme kasmweb/kasmos:develop
 ```
-1. Login with kasm_user/password to https://localhost:6901/.
+1. Login with kasm_user/password to https://localhost:7901/.
 2. Make necessary KDE tweaks.
 3. Use `git diff kde-config` to view your changes.
 4. Commit relevant changes.
