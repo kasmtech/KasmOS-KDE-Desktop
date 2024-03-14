@@ -3,7 +3,10 @@
 1912x922 screen: Width=1020
 1912x922 screen: XPosition=450
 1912x922 screen: YPosition=146
+2193x1213 screen: XPosition=586
+2193x1213 screen: YPosition=245
 MenuBar=Disabled
+RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAAAAA/wAAAK8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 VNC-0=VNC-0
