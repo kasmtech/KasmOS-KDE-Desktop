@@ -116,6 +116,7 @@ menuFont=Noto Sans,11,-1,5,50,0,0,0,0,0
 [KDE]
 LookAndFeelPackage=com.github.varlesh.materia-dark
 ShowIconsInMenuItems=false
+SingleClick=false
 
 [WM]
 activeBackground=39,39,39

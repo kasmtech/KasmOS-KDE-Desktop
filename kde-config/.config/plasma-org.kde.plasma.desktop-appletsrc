@@ -23,7 +23,7 @@ DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=696
+ToolBoxButtonX=631
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=/usr/share/wallpapers/Materia-Dark/
@@ -46,26 +46,6 @@ plugin=org.kde.plasma.digitalclock
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][19]
-immutability=1
-plugin=org.kde.plasma.kickerdash
-transient=true
-
-[Containments][2][Applets][19][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][19][Configuration][General]
-customButtonImage=kmenu
-favoritesPortedToKAstats=true
-useCustomButtonImage=true
-
-[Containments][2][Applets][19][Configuration][Shortcuts]
-global=Alt+F1
-
-[Containments][2][Applets][19][Shortcuts]
-global=Alt+F1
-
 [Containments][2][Applets][20]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -87,18 +67,11 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][22][Configuration][General]
+backgroundOpacity=90
 customButtonImage=deepin-launcher
 favoriteSystemActions=logout
 showSystemActions=false
 useCustomButtonImage=true
-
-[Containments][2][Applets][23]
-immutability=1
-plugin=org.kde.plasma.kickerdash
-transient=true
-
-[Containments][2][Applets][23][Configuration][General]
-favoritesPortedToKAstats=true
 
 [Containments][2][Applets][24]
 immutability=1
@@ -112,8 +85,12 @@ plugin=org.kde.plasma.pager
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][2][Applets][5][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:chromium.desktop,applications:onlyoffice-docs.desktop,applications:onlyoffice-sheets.desktop,applications:onlyoffice-present.desktop
+launchers=preferred://filemanager,applications:browser.desktop,applications:docs-editor.desktop,applications:sheets-editor.desktop,applications:present-editor.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -121,7 +98,7 @@ plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][ConfigDialog]
 DialogHeight=74
-DialogWidth=2193
+DialogWidth=2064
 
 [Containments][2][General]
 AppletOrder=24;22;4;21;5;20;6;14;15
@@ -200,4 +177,4 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
+screenMapping=desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
