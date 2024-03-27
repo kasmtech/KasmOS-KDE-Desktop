@@ -1015,6 +1015,7 @@ Theme[$d]
 [KDE]
 LookAndFeelPackage[$d]
 ShowIconsInMenuItems[$d]
+SingleClick[$d]
 widgetStyle[$d]
 
 [Main]
