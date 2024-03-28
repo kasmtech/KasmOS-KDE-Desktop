@@ -90,7 +90,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=preferred://filemanager,applications:browser.desktop,applications:docs-editor.desktop,applications:sheets-editor.desktop,applications:present-editor.desktop
+launchers=applications:browser.desktop,applications:docs-editor.desktop,applications:sheets-editor.desktop,applications:present-editor.desktop,applications:io.elementary.files.desktop
 
 [Containments][2][Applets][6]
 immutability=1
