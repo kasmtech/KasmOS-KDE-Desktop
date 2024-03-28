@@ -1,0 +1,8 @@
+[Added Associations]
+inode/directory=io.elementary.files.desktop;
+
+[Default Applications]
+inode/directory=io.elementary.files.desktop;
+
+[Removed Associations]
+inode/directory=open-pantheon-terminal-here.desktop;

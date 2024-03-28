@@ -1,0 +1,29 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "cmpopp2@gmail.com",
+                "Name": "Connor Popp"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "A fullscreen customizable launcher with application directories and krunner-like search",
+        "Description[ru]": "Полноэкранный настраиваемый лаунчер с директориями програм и поиском в стиле KRunner",
+        "Description[uk]": "Повноекранний налаштовуваний лаунчер з теками програм та пошуком у стилі KRunner",
+        "Icon": "start-here-kde",
+        "Id": "P-Connor.PlasmaDrawer",
+        "Name": "Plasma Drawer",
+        "Name[ru]": "Plasma Drawer",
+        "Name[uk]": "Plasma Drawer",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.4",
+        "Website": "https://github.com/P-Connor/plasma-drawer"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.launchermenu"
+    ]
+}

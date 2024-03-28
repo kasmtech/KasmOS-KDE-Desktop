@@ -1,0 +1,11 @@
+[Favorites-org.kde.plasma.kicker.favorites.instance-19-95e1982a-6d3c-4c31-8d3e-f3686712b1ad]
+ordering=applications:chromium.desktop,applications:org.gnome.Evince.desktop,applications:org.kde.kfind.desktop,applications:onlyoffice-docs.desktop,applications:onlyoffice-sheets.desktop,applications:onlyoffice-present.desktop,applications:io.elementary.terminal.desktop,applications:org.gnome.gedit.desktop,applications:io.elementary.files.desktop
+
+[Favorites-org.kde.plasma.kicker.favorites.instance-19-global]
+ordering=applications:chromium.desktop,applications:org.gnome.Evince.desktop,applications:org.kde.kfind.desktop,applications:onlyoffice-docs.desktop,applications:onlyoffice-sheets.desktop,applications:onlyoffice-present.desktop,applications:io.elementary.terminal.desktop,applications:org.gnome.gedit.desktop,applications:io.elementary.files.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-95e1982a-6d3c-4c31-8d3e-f3686712b1ad]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop
+
+[Favorites-org.kde.plasma.kickoff.favorites.instance-3-global]
+ordering=preferred://browser,applications:systemsettings.desktop,applications:org.kde.dolphin.desktop
