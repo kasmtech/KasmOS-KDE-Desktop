@@ -8,6 +8,7 @@ RightButton;NoModifier=org.kde.contextmenu
 [Containments][1]
 ItemGeometries-1024x768=
 ItemGeometries-2193x1213=
+ItemGeometries-2203x1151=
 ItemGeometriesHorizontal=
 activityId=95e1982a-6d3c-4c31-8d3e-f3686712b1ad
 formfactor=0
@@ -70,6 +71,7 @@ DialogWidth=720
 backgroundOpacity=90
 customButtonImage=deepin-launcher
 favoriteSystemActions=logout
+hiddenApplications=org.kde.kdeconnect.app.desktop,org.kde.kdeconnect.sms.desktop,org.kde.kdeconnect_open.desktop
 showSystemActions=false
 useCustomButtonImage=true
 
@@ -177,4 +179,4 @@ knownItems=org.kde.plasma.manage-inputmethod,org.kde.plasma.keyboardlayout,org.k
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
+screenMapping=desktop:/Uploads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad,desktop:/Downloads,0,95e1982a-6d3c-4c31-8d3e-f3686712b1ad
