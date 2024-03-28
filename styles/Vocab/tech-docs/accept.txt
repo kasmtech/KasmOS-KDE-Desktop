@@ -1,0 +1,6 @@
+KDE
+Kasm
+url
+CentOS
+Vultr
+dbus
