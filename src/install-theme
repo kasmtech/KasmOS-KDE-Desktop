@@ -5,4 +5,6 @@ set -euo pipefail
 apt-get update && \
   apt-get install -y materia-kde materia-gtk-theme geeqie plasma-widgets-addons
 rm -f /usr/share/wallpapers/Materia-Dark/contents/images/*
-cp /tmp/theme-src/bg_kasm.png /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
+mkdir -p /usr/share/backgrounds/
+cp /tmp/theme-src/bg_kasm.png /usr/share/backgrounds/bg_default.png
+ln -s /usr/share/backgrounds/bg_default.png /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
