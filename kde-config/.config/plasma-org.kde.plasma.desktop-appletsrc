@@ -68,7 +68,7 @@ DialogWidth=720
 
 [Containments][2][Applets][22][Configuration][General]
 backgroundOpacity=90
-customButtonImage=deepin-launcher
+customButtonImage=kasmos
 favoriteSystemActions=logout
 showSystemActions=false
 useCustomButtonImage=true

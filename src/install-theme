@@ -5,4 +5,13 @@ set -euo pipefail
 apt-get update && \
   apt-get install -y materia-kde materia-gtk-theme geeqie plasma-widgets-addons
 rm -f /usr/share/wallpapers/Materia-Dark/contents/images/*
-cp /tmp/theme-src/bg_kasm.png /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
+mkdir -p /usr/share/backgrounds/
+# Standardized background location across all Kasm Images
+cp /tmp/theme-src/bg_kasm.png /usr/share/backgrounds/bg_default.png
+# Overwrite default theme background with the Kasm custom background
+rm -f /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
+ln -s /usr/share/backgrounds/bg_default.png /usr/share/wallpapers/Materia-Dark/contents/images/1920x1080.png
+# Plasma Drawer Icon (Start Icon)
+cp /tmp/theme-src/kasmos.svg /usr/share/icons/Papirus/22x22/apps/kasmos.svg
+# KDE Start Plash Screen
+cp /tmp/theme-src/start-here-kde-logo.svg /usr/share/plasma/look-and-feel/com.github.varlesh.materia-dark/contents/splash/images/start-here-kde-logo.svg
