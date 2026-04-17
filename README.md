@@ -15,15 +15,20 @@ In-container `~/.config` is completely ignored. `./tweak-theme` maps host
 
 ## How to tweak KDE and save tweaks
 
-Run container based on a KDE core image:
+1. Setup a password in ~/.kasm-tweak-theme:
 ```sh
-./tweak-theme kasmweb/kasmos:develop
+VNC_PW=<your password>
+export VNC_PW
 ```
-1. Login with kasm_user/password to https://localhost:7901/.
-2. Make necessary KDE tweaks.
-3. Use `git diff kde-config` to view your changes.
-4. Commit relevant changes.
-5. Rinse and repeat.
+2. Run container based on a KDE core image:
+```sh
+./tweak-theme kasmweb/kasmos-desktop:develop
+```
+3. Login with kasm_user/\<your password\> to https://localhost:7901/.
+4. Make necessary KDE tweaks.
+5. Use `git diff kde-config` to view your changes.
+6. Commit relevant changes.
+7. Rinse and repeat.
 
 ### KDE menu favourites
 Add and remove favourite apps using GUI. Drag & drop to add, right-click click
