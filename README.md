@@ -31,3 +31,8 @@ Add and remove favourite apps using GUI. Drag & drop to add, right-click click
 
 To save favourite changes in git, use `make save-favorites`, then commit files
 staged by it.
+
+
+## Reporting Issues
+
+To report any issues for this repository, please use our central issue tracker: **[Kasm Workspaces Issue Tracker](https://github.com/kasmtech/workspaces-issues/issues)**
