@@ -1,4 +1,5 @@
 [org.kde.kdecoration2]
+BorderSize=Tiny
 NoPlugin=false
-library=org.kde.breeze
-theme=Breeze
+library=org.kde.kwin.aurorae
+theme=__aurorae__svg__Arc-Dark

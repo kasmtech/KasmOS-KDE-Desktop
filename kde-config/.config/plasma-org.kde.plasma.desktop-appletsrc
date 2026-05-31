@@ -18,6 +18,10 @@ wallpaperplugin=org.kde.image
 [Containments][1][General]
 positions={"1024x768":[]}
 
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Arc-Dark/
+SlidePaths=/usr/share/wallpapers/
+
 [Containments][2]
 activityId=
 formfactor=2
@@ -71,7 +75,7 @@ AppletOrder=3;4;5;6;7;17;18
 activityId=
 formfactor=2
 immutability=1
-lastScreen=-1
+lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
@@ -114,4 +118,4 @@ knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Uploads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7,desktop:/Downloads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7
+screenMapping=desktop:/Downloads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7,desktop:/Uploads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7

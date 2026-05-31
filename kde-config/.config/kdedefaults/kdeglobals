@@ -1,8 +1,8 @@
 [General]
-ColorScheme=BreezeLight
+ColorScheme=ArcDark
 
 [Icons]
-Theme=breeze
+Theme=Papirus-Dark
 
 [KDE]
-widgetStyle=Breeze
+widgetStyle=kvantum
