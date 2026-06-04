@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="709">
+  <name>Plasma Drawer</name>
+  <providerid>api.kde-look.org</providerid>
+  <author>colloquiem</author>
+  <homepage>https://store.kde.org/p/2238492</homepage>
+  <licence></licence>
+  <version>2.0.2</version>
+  <rating>78</rating>
+  <downloads>36824</downloads>
+  <installedfile>/home/kasm-user/.local/share/plasma/plasmoids/p-connor.plasma-drawer/</installedfile>
+  <id>2238492</id>
+  <releasedate>2026-01-19</releasedate>
+  <summary>&lt;p>A full-screen customizable launcher with application directories and krunner-like search for KDE Plasma 6. &lt;br />&lt;br />The Plasma 5 version can be found &lt;a href="https://www.pling.com/p/1973454">here&lt;/a>.&lt;br />&lt;br />&lt;b>-- Installation --&lt;/b>&lt;br />&lt;br />The widget can be downloaded or removed using the Plasma Add-On Installer:&lt;br />Right click desktop -&amp;gt; Add Widgets... -&amp;gt; Get new widgets -&amp;gt; Download New Plasma Widgets -&amp;gt; Search &amp;quot;Plasma Drawer&amp;quot;&lt;br />&lt;br />Alternatively, download the file, then run:&lt;br />&lt;/p>&lt;pre>&lt;code>kpackagetool6 -t Plasma/Applet -i plasma-drawer-VERSION.plasmoid&lt;/code>&lt;/pre>&lt;br />To uninstall, run:&lt;br />&lt;pre>&lt;code>kpackagetool6 -t Plasma/Applet -r p-connor.plasma-drawer&lt;/code>&lt;/pre>&lt;br />To upgrade to a newer version:&lt;br />&lt;pre>&lt;code>kpackagetool6 -t Plasma/Applet -u plasma-drawer-VERSION.plasmoid&lt;/code>&lt;/pre>&lt;br />&lt;br />&lt;b>-- Usage --&lt;/b>&lt;br />&lt;br />Add the widget to your panel or desktop, then click its icon to open it.&lt;br />&lt;br />&lt;b>Customizing Apps and Directories&lt;/b>&lt;br />&lt;br />Right click the widget icon, then select &amp;quot;Edit Applications.&amp;quot; Then rearrange or adjust as desired. &lt;br />The applications in the grid will be arranged left to right, top to bottom.&lt;br />&lt;br />To add an app to the &amp;quot;root&amp;quot; page, drag or copy it out of any folder in the &amp;quot;Edit Applications&amp;quot; menu.&lt;br />&lt;br />&lt;b>Customizing Search Runners&lt;/b>&lt;br />&lt;br />Right click the icon widget, then select &amp;quot;Configure Plasma Drawer.&amp;quot; Then click the &amp;quot;Search Plugins&amp;quot; tab on the left. Enable and re-arrange the plugins according to personal preference. Matches for plugins higher in the list will be prioritized.&lt;br />&lt;br />&lt;b>Customizing System Actions&lt;/b>&lt;br />&lt;br />System actions can be individually hidden by right clicking and selecting &amp;quot;Remove action,&amp;quot; or disabled entirely in the widget configuration.&lt;br />The actions can also be rearranged by long pressing and dragging the icon to the desired position.&lt;br />&lt;br />&lt;b>Internationalization&lt;/b>&lt;br />Is Plasma Drawer not available in your language? Check out the &lt;a href="https://github.com/p-connor/plasma-drawer/blob/main/translate/README.md">Translations Readme&lt;/a> to help translate! Your support helps everyone who uses Plasma Drawer!&lt;br />&lt;br />&lt;b>Donations&lt;/b>&lt;br />You can support me &lt;a href="https://liberapay.com/p-connor/donate">here&lt;/a>.&lt;br />&lt;br />Inspired by Launchpad Plasma</summary>
+  <changelog></changelog>
+  <preview>https://images.pling.com/cache/770x540-4/img/00/00/63/65/03/2238492/thumbnail.png</preview>
+  <previewBig>https://images.pling.com/cache/770x540-4/img/00/00/63/65/03/2238492/thumbnail.png</previewBig>
+  <payload>https://files06.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTc2ODg1MzI1MCwibyI6IjEiLCJzIjoiZGQ3OWFkYTQzZDhiNjk3ODJhMTdjZTVjOWNmN2I1ZGI5ZDQxZDI0Mjg0ZGZmYWMwMzhmYWI4M2M1YTliMzRiZmE1ZWIzNjA3MTA4MTIxZjEyZTdhNmJiYzkwMjU1NzE2NDNiYWQwMDNmOTM2NWQyYzQwZWQ4ZTIzZTMwZTk1ZjIiLCJ0IjoxNzgwNTUwMTY5LCJzdGZwIjpudWxsLCJzdGlwIjoiMTE4LjkzLjM4LjE0OCJ9.0WdBsul3cWdgCx22lytGvQqz1eBnf31bdddtJSgs2L0/plasma-drawer-2.0.2.plasmoid</payload>
+  <tags>original-product,plasma,unix,plasma##majorversion=6,app,extension,drawer,gplv3,widget,launcher,linux,menu,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

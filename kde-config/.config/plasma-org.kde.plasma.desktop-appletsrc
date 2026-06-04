@@ -42,16 +42,42 @@ fontWeight=400
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][3]
+[Containments][2][Applets][19]
 immutability=1
-plugin=org.kde.plasma.kickoff
+plugin=p-connor.plasma-drawer
 
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
+[Containments][2][Applets][19][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][2][Applets][19][Configuration][General]
+customButtonImage=kasmos
+favoriteSystemActions=logout
+useCustomButtonImage=true
+
+[Containments][2][Applets][21]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][22]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][23]
+immutability=1
+plugin=org.kde.plasma.panelspacer
+
+[Containments][2][Applets][23][Configuration][General]
+expanding=false
+length=100
 
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][4][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][5]
 immutability=1
@@ -69,7 +95,7 @@ plugin=org.kde.plasma.systemtray
 SystrayContainmentId=8
 
 [Containments][2][General]
-AppletOrder=3;4;5;6;7;17;18
+AppletOrder=22;4;19;23;5;21;6;7;17;18
 
 [Containments][8]
 activityId=
@@ -118,4 +144,4 @@ knownItems=org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/Downloads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7,desktop:/Uploads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7
+screenMapping=desktop:/Uploads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7,desktop:/Downloads,0,e44d5de6-ba6b-41da-8381-50d7a5ae71a7
