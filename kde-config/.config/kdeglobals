@@ -95,7 +95,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorSchemeHash=3b0b7b7f6fa70c9f360b5a78837836d8971524f3
+ColorSchemeHash=fe6711d5312a664b695e8bc1d1d4b53f52ba20f0
 
 [KDE]
 LookAndFeelPackage=com.github.varlesh.arc-dark
@@ -107,3 +107,6 @@ activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
 inactiveForeground=102,106,115
+
+[KDE Action Restrictions][$i]
+logout=false
