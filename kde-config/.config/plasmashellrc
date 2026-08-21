@@ -3,7 +3,7 @@ PreloadWeight=34
 
 [PlasmaViews][Panel 2]
 alignment=132
-floating=1
+floating=0
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=44
