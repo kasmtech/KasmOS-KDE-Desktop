@@ -11,6 +11,8 @@ Debian apps. Read their CLAUDE.md files when crossing those boundaries.
   copies wallpaper to `/usr/share/backgrounds/bg_default.png`, links Materia's
   wallpaper, and installs the KasmOS drawer icon and splash logo.
 - `kde-config/.config`: Plasma/KWin/KDE/GTK defaults, autostart and app settings.
+- `kde-config/.config/dconf/user`: binary dconf database containing Elementary
+  application preferences and GNOME/GTK settings.
 - `kde-config/.local/share/plasma/plasmoids/P-Connor.PlasmaDrawer`: drawer QML UI,
   configuration, JavaScript helpers and widget metadata.
 - `kde-config/.local/share/kactivitymanagerd/resources`: favorites SQLite database
