@@ -13,6 +13,8 @@ rm -f /usr/share/wallpapers/Arc-Dark/contents/images/1920x1080.png
 ln -s /usr/share/backgrounds/bg_default.png /usr/share/wallpapers/Arc-Dark/contents/images/1920x1080.png
 # Plasma Drawer Icon (Start Icon)
 cp /tmp/theme-src/kasmos.svg /usr/share/icons/Papirus/22x22/apps/kasmos.svg
-# KDE Start Plash Screen
-# TODO
-# cp /tmp/theme-src/start-here-kde-logo.svg /usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/splash/images/start-here-kde-logo.svg
+# KDE Start Plash Screen. Copy from KasmOS Bookworm theme due to new theme (Arc
+# Dark) animation change.
+splash_dir=/usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/splash
+rm -r "$splash_dir"
+cp -a /tmp/theme-src/splash "$splash_dir"
